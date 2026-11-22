@@ -15,7 +15,7 @@
 | 5 | Nguyễn Lâm Minh Khoa | 24520830 |
 
 **Câu hỏi nghiên cứu trung tâm:**
-> Làm thế nào để xây dựng một quy trình phát hiện Cross-Site Scripting (XSS) bằng Học máy / Học sâu (ML/DL) không phụ thuộc vào shortcut ngữ nghĩa, kiểm thử độ bền đối kháng (*adversarial robustness*) của từng mô hình bằng thuật toán di truyền (*Genetic Algorithm — GA*) kết hợp trình duyệt thực (*Playwright Oracle*), và đánh giá hiệu quả phòng thủ thực tế (*defense-in-depth*) của các payload vượt qua kiểm duyệt (*bypass*) trên ứng dụng DVWA dưới tác động của **Content Security Policy (CSP)** và **Context-Aware Output Encoding**?
+> *“Payload do thuật toán di truyền (GA) tự sinh ra có thể vượt mặt bộ phân loại XSS bằng học máy ở mức độ nào, tính riêng cho từng ngữ cảnh chèn?”*
 
 ---
 
@@ -178,7 +178,7 @@ python -m unittest test_decoder.py test_features.py test_predictor.py test_ga_un
 python app.py
 # Terminal 2:
 python verify_pipeline.py ../malicious_payloads_mixed_3060_v8.csv --concurrency 8 --concurrent-size 60
-python filter_dataset.py ../malicious_payloads_mixed_3060_v8.csv --seed 2
+python filter_dataset.py ../malicious_payloads_mixed_3060_v8.csv --concurrency 8 --output oracle_results_2.csv --log oracle_log_2.jsonl
 python -m preprocessing.build_benign_dataset
 python -m preprocessing.build_final_dataset
 
@@ -196,6 +196,26 @@ python -m ga.analyze_phase3
 python -m dvwa.dvwa_eval
 ```
 
+### Lưu ý cơ chế Resume & Xác minh Tái lập Nhanh (~1 phút)
+
+Repo đã đóng gói sẵn các artifact đã đóng băng (`oracle_log_2.jsonl`, `models/artifacts/`, `ga/oracle_cache.jsonl`, `ga/results_full/`, `dvwa/results/`). Khi chạy lại `filter_dataset.py` hoặc `ga.run_phase3`, script sẽ tự động **resume/bỏ qua** các kết quả đã hoàn tất; nếu muốn chạy mới hoàn toàn từ đầu, hãy truyền `--out-dir` mới hoặc xóa/đổi tên các file log/kết quả cũ trước khi chạy.
+
+**Xác minh Tái lập Nhanh (không cần train lại, không ghi đè artifacts):**
+
+```bash
+cd xss_pipeline
+
+# 1. Đối chiếu trực tiếp số liệu đánh giá Tập Test & Phân tích Giai đoạn 3
+python -m models.evaluate_test
+python -m ga.analyze_phase3
+
+# 2. Chạy tái lập 1 lượt GA mẫu ra /tmp/repro_ga (tận dụng oracle_cache.jsonl, ~2–3 giây)
+python -m ga.ga_runner --context html_body --model cnn_lstm --mode ga --seed 0 --population 60 --generations 40 --out-dir /tmp/repro_ga
+
+# 3. Chạy tái lập nhanh 10 mẫu trên DVWA ra /tmp/repro_dvwa (cần DVWA Docker đang chạy)
+python -m dvwa.dvwa_eval --limit 10 --configs C1 C2 C3 C4 --skip-crosscheck --out-dir /tmp/repro_dvwa
+```
+
 ---
 
 ## 5. Demo Nhanh
@@ -206,8 +226,8 @@ python -m dvwa.dvwa_eval
 
 ## 6. Tài liệu Tham khảo
 
-1. Kaur, J., Garg, U., & Bathla, G. (2023). *Detection of cross-site scripting (XSS) attacks using machine learning techniques: a review*. Artificial Intelligence Review.
-2. Zhang, X., Zhou, Y., Pei, S., Zhuge, J., & Chen, J. (2020). *Adversarial Examples Detection for XSS Attacks Based on Generative Adversarial Networks*. IEEE Access.
-3. Liu, Z., Fang, Y., Huang, C., & Xu, Y. (2022). *GAXSS: Effective Payload Generation Method to Detect XSS Vulnerabilities Based on Genetic Algorithm*. Security and Communication Networks.
-4. Tadhani, J. R., Vekariya, V., Sorathiya, V., Alshathri, S. I., & El-Shafai, W. (2024). *Securing web applications against XSS and SQLi attacks using a novel deep learning approach*. Scientific Reports, 14, 1803.
-5. Hannousse, A., Yahiouche, S., & Nait-Hamoud, M. C. (2024). *Twenty-two years since revealing cross-site scripting attacks: A systematic mapping and a comprehensive survey*. Computer Science Review, 52, 100634.
+1. Kaur, J., Garg, U., & Bathla, G. (2023). *Detection of cross-site scripting (XSS) attacks using machine learning techniques: a review*. Artificial Intelligence Review. `doi:10.1007/s10462-023-10433-3`
+2. Zhang, X., Zhou, Y., Pei, S., Zhuge, J., & Chen, J. (2020). *Adversarial Examples Detection for XSS Attacks Based on Generative Adversarial Networks*. IEEE Access. `doi:10.1109/access.2020.2965184`
+3. Liu, Z., Fang, Y., Huang, C., & Xu, Y. (2022). *GAXSS: Effective Payload Generation Method to Detect XSS Vulnerabilities Based on Genetic Algorithm*. Security and Communication Networks. `doi:10.1155/2022/2031924`
+4. Tadhani, J. R., Vekariya, V., Sorathiya, V., Alshathri, S. I., & El-Shafai, W. (2024). *Securing web applications against XSS and SQLi attacks using a novel deep learning approach*. Scientific Reports, 14, 1803. `doi:10.1038/s41598-023-48845-4`
+5. Hannousse, A., Yahiouche, S., & Nait-Hamoud, M. C. (2024). *Twenty-two years since revealing cross-site scripting attacks: A systematic mapping and a comprehensive survey*. Computer Science Review, 52, 100634. `doi:10.1016/j.cosrev.2024.100634`
