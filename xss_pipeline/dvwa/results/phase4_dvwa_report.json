@@ -1,0 +1,614 @@
+{
+  "generated_at": "2026-11-21T10:57:06.899540+00:00",
+  "default_dvwa_headers": [
+    {
+      "path": "/vulnerabilities/xss_r/?name=test",
+      "final_url": "http://127.0.0.1:8080/vulnerabilities/xss_r/?name=test",
+      "http_status": 200,
+      "content_security_policy": null,
+      "x_xss_protection": "0",
+      "x_frame_options": null,
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "path": "/vulnerabilities/xss_s/",
+      "final_url": "http://127.0.0.1:8080/vulnerabilities/xss_s/",
+      "http_status": 200,
+      "content_security_policy": null,
+      "x_xss_protection": null,
+      "x_frame_options": null,
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "path": "/vulnerabilities/csp/",
+      "final_url": "http://127.0.0.1:8080/vulnerabilities/csp/",
+      "http_status": 200,
+      "content_security_policy": "script-src 'self' https://pastebin.com  example.com code.jquery.com https://ssl.google-analytics.com ;",
+      "x_xss_protection": null,
+      "x_frame_options": null,
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "path": "/__oracle_missing_resource__",
+      "final_url": "http://127.0.0.1:8080/__oracle_missing_resource__",
+      "http_status": 404,
+      "content_security_policy": null,
+      "x_xss_protection": null,
+      "x_frame_options": null,
+      "content_type": "text/html; charset=iso-8859-1"
+    }
+  ],
+  "config_by_context": {
+    "C1": {
+      "html_body": {
+        "executed": 60,
+        "total": 60,
+        "c1_executed": 60,
+        "blocked_vs_c1": 0,
+        "block_rate_vs_c1_pct": 0.0
+      },
+      "attribute": {
+        "executed": 125,
+        "total": 125,
+        "c1_executed": 125,
+        "blocked_vs_c1": 0,
+        "block_rate_vs_c1_pct": 0.0
+      },
+      "js_string": {
+        "executed": 182,
+        "total": 182,
+        "c1_executed": 182,
+        "blocked_vs_c1": 0,
+        "block_rate_vs_c1_pct": 0.0
+      },
+      "url": {
+        "executed": 13,
+        "total": 13,
+        "c1_executed": 13,
+        "blocked_vs_c1": 0,
+        "block_rate_vs_c1_pct": 0.0
+      },
+      "ALL": {
+        "executed": 380,
+        "total": 380,
+        "c1_executed": 380,
+        "blocked_vs_c1": 0,
+        "block_rate_vs_c1_pct": 0.0
+      }
+    },
+    "C2": {
+      "html_body": {
+        "executed": 0,
+        "total": 60,
+        "c1_executed": 60,
+        "blocked_vs_c1": 60,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "attribute": {
+        "executed": 0,
+        "total": 125,
+        "c1_executed": 125,
+        "blocked_vs_c1": 125,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "js_string": {
+        "executed": 0,
+        "total": 182,
+        "c1_executed": 182,
+        "blocked_vs_c1": 182,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "url": {
+        "executed": 0,
+        "total": 13,
+        "c1_executed": 13,
+        "blocked_vs_c1": 13,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "ALL": {
+        "executed": 0,
+        "total": 380,
+        "c1_executed": 380,
+        "blocked_vs_c1": 380,
+        "block_rate_vs_c1_pct": 100.0
+      }
+    },
+    "C3": {
+      "html_body": {
+        "executed": 0,
+        "total": 60,
+        "c1_executed": 60,
+        "blocked_vs_c1": 60,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "attribute": {
+        "executed": 0,
+        "total": 125,
+        "c1_executed": 125,
+        "blocked_vs_c1": 125,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "js_string": {
+        "executed": 0,
+        "total": 182,
+        "c1_executed": 182,
+        "blocked_vs_c1": 182,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "url": {
+        "executed": 0,
+        "total": 13,
+        "c1_executed": 13,
+        "blocked_vs_c1": 13,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "ALL": {
+        "executed": 0,
+        "total": 380,
+        "c1_executed": 380,
+        "blocked_vs_c1": 380,
+        "block_rate_vs_c1_pct": 100.0
+      }
+    },
+    "C4": {
+      "html_body": {
+        "executed": 0,
+        "total": 60,
+        "c1_executed": 60,
+        "blocked_vs_c1": 60,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "attribute": {
+        "executed": 0,
+        "total": 125,
+        "c1_executed": 125,
+        "blocked_vs_c1": 125,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "js_string": {
+        "executed": 0,
+        "total": 182,
+        "c1_executed": 182,
+        "blocked_vs_c1": 182,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "url": {
+        "executed": 0,
+        "total": 13,
+        "c1_executed": 13,
+        "blocked_vs_c1": 13,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "ALL": {
+        "executed": 0,
+        "total": 380,
+        "c1_executed": 380,
+        "blocked_vs_c1": 380,
+        "block_rate_vs_c1_pct": 100.0
+      }
+    }
+  },
+  "config_by_model": {
+    "C1": {
+      "rf": {
+        "executed": 16,
+        "total": 16,
+        "c1_executed": 16,
+        "blocked_vs_c1": 0,
+        "block_rate_vs_c1_pct": 0.0
+      },
+      "svm": {
+        "executed": 15,
+        "total": 15,
+        "c1_executed": 15,
+        "blocked_vs_c1": 0,
+        "block_rate_vs_c1_pct": 0.0
+      },
+      "cnn_lstm": {
+        "executed": 349,
+        "total": 349,
+        "c1_executed": 349,
+        "blocked_vs_c1": 0,
+        "block_rate_vs_c1_pct": 0.0
+      }
+    },
+    "C2": {
+      "rf": {
+        "executed": 0,
+        "total": 16,
+        "c1_executed": 16,
+        "blocked_vs_c1": 16,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "svm": {
+        "executed": 0,
+        "total": 15,
+        "c1_executed": 15,
+        "blocked_vs_c1": 15,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "cnn_lstm": {
+        "executed": 0,
+        "total": 349,
+        "c1_executed": 349,
+        "blocked_vs_c1": 349,
+        "block_rate_vs_c1_pct": 100.0
+      }
+    },
+    "C3": {
+      "rf": {
+        "executed": 0,
+        "total": 16,
+        "c1_executed": 16,
+        "blocked_vs_c1": 16,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "svm": {
+        "executed": 0,
+        "total": 15,
+        "c1_executed": 15,
+        "blocked_vs_c1": 15,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "cnn_lstm": {
+        "executed": 0,
+        "total": 349,
+        "c1_executed": 349,
+        "blocked_vs_c1": 349,
+        "block_rate_vs_c1_pct": 100.0
+      }
+    },
+    "C4": {
+      "rf": {
+        "executed": 0,
+        "total": 16,
+        "c1_executed": 16,
+        "blocked_vs_c1": 16,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "svm": {
+        "executed": 0,
+        "total": 15,
+        "c1_executed": 15,
+        "blocked_vs_c1": 15,
+        "block_rate_vs_c1_pct": 100.0
+      },
+      "cnn_lstm": {
+        "executed": 0,
+        "total": 349,
+        "c1_executed": 349,
+        "blocked_vs_c1": 349,
+        "block_rate_vs_c1_pct": 100.0
+      }
+    }
+  },
+  "crosscheck_html_body": {
+    "c1_html_body": {
+      "executed": 60,
+      "total": 60
+    },
+    "dvwa_xss_r": {
+      "executed": 60,
+      "total": 60
+    },
+    "both_executed_count": 60,
+    "c1_only_ids": [],
+    "xss_r_only_ids": [],
+    "neither_executed_ids": []
+  },
+  "c2_iframe_data_observation": {
+    "total": 12,
+    "executed": 0,
+    "blocked": 12,
+    "cases": [
+      {
+        "id": "GA_BYP_0368",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>alert(1)</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-bhHHL3z2vDgxUt0W3dWQOrprscmda2Y5pLsLg4GF+pI='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0369",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>alert(document.domain)</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-X6WoVv8sUlFXk0r+MI/R+p2PsbD1k74Z+jLIpYAjIgE='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0370",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>alert(origin)</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-sot4TsoYPMqH9HF0f7P0xsez7m6YnNiGcQWr7OJ6FBc='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0371",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>confirm(1)</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-hMGe+D73WzX/p/YyohdopKzhsIyHqCHw6SO2/WVcqsM='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0372",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>confirm(origin)</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-8oDKI1YI9Uhn57rbke8puwa5b0S9Dva994zfbHAfhjk='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0373",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>document.cookie='x=1'</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-AccM1O8xKKeklBA4epBFcbspTU1lKnzy2hs9c+x3A20='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0374",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>fetch('/probe')</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-Emh0gtd5fkRY1ANAULkfqer9E4ifgnbbmmpmRf2eADY='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0375",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>new Image().src='/probe'</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-KIqD135IAs1iEx/b6yQv4QvhfC6K97DCkwO3dFzXixw='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0376",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>print()</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-Ul1RMxNBbPGH9E+ofhdT7m0RVSwiCXU33cMrTtNPpo8='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0377",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>prompt(1)</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-1sesQ6XmDvgvepOypZue0nqyiMNFj8oIr/3CVUfGTCQ='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0378",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>self.confirm(1)</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-3DuVLOiDeddO6piezMnFX/TqL7DWvcCeahSmr3eq+8I='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      },
+      {
+        "id": "GA_BYP_0379",
+        "family": "iframe_srcdoc_ga",
+        "carrier": "iframe",
+        "payload": "data:text/html,<script>window.print()</script>",
+        "executed": 0,
+        "signals": [],
+        "csp_header": "script-src 'self'; object-src 'none';",
+        "csp_violations": [
+          {
+            "source": "console",
+            "type": "error",
+            "text": "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-MguIPR6qNR8D3B+eAlK+bIRTZe8t3wkOY4B/56Me9FU='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked."
+          },
+          {
+            "source": "securitypolicyviolation",
+            "violatedDirective": "script-src-elem",
+            "effectiveDirective": "script-src-elem",
+            "blockedURI": "inline",
+            "sourceFile": "data",
+            "lineNumber": 1,
+            "disposition": "enforce"
+          }
+        ]
+      }
+    ]
+  },
+  "audit": {
+    "c1_not_executed": [],
+    "bypassed_defenses": {
+      "C2": [],
+      "C3": [],
+      "C4": []
+    }
+  }
+}

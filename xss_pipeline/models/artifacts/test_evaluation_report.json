@@ -1,0 +1,371 @@
+{
+  "dataset": {
+    "split": "test",
+    "total_count": 1191,
+    "pos_count": 391,
+    "neg_count": 800
+  },
+  "representative_seed": 202,
+  "overall_test_metrics": {
+    "rf": {
+      "label": "RF",
+      "model_name": "rf",
+      "seed": null,
+      "threshold": 0.5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 391,
+      "fp": 0,
+      "tn": 800,
+      "fn": 0
+    },
+    "svm": {
+      "label": "SVM",
+      "model_name": "svm",
+      "seed": null,
+      "threshold": 0.4,
+      "precision": 0.9873737373737373,
+      "recall": 1.0,
+      "f1": 0.9936467598475223,
+      "tp": 391,
+      "fp": 5,
+      "tn": 795,
+      "fn": 0
+    },
+    "cnn_lstm_seed42": {
+      "label": "CNN+LSTM (seed=42)",
+      "model_name": "cnn_lstm",
+      "seed": 42,
+      "threshold": 0.9,
+      "precision": 1.0,
+      "recall": 0.9974424552429667,
+      "f1": 0.998719590268886,
+      "tp": 390,
+      "fp": 0,
+      "tn": 800,
+      "fn": 1
+    },
+    "cnn_lstm_seed102": {
+      "label": "CNN+LSTM (seed=102)",
+      "model_name": "cnn_lstm",
+      "seed": 102,
+      "threshold": 0.67,
+      "precision": 0.9974489795918368,
+      "recall": 1.0,
+      "f1": 0.9987228607918263,
+      "tp": 391,
+      "fp": 1,
+      "tn": 799,
+      "fn": 0
+    },
+    "cnn_lstm_seed202": {
+      "label": "CNN+LSTM (seed=202, rep)",
+      "model_name": "cnn_lstm",
+      "seed": 202,
+      "threshold": 0.57,
+      "precision": 0.9974358974358974,
+      "recall": 0.9948849104859335,
+      "f1": 0.9961587708066582,
+      "tp": 389,
+      "fp": 1,
+      "tn": 799,
+      "fn": 2
+    }
+  },
+  "cnn_lstm_summary_3seeds": {
+    "precision": {
+      "mean": 0.9982949590092448,
+      "std": 0.0014766233002420682
+    },
+    "recall": {
+      "mean": 0.9974424552429668,
+      "std": 0.0025575447570332366
+    },
+    "f1": {
+      "mean": 0.9978670739557902,
+      "std": 0.001479434828264083
+    }
+  },
+  "recall_by_context": {
+    "html_body": {
+      "n": 104,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 1.0,
+        "102": 1.0,
+        "202": 0.9903846153846154
+      },
+      "cnn_lstm_mean": 0.9967948717948718,
+      "cnn_lstm_std": 0.005551444896054075,
+      "cnn_lstm_rep_recall": 0.9903846153846154
+    },
+    "attribute": {
+      "n": 118,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 1.0,
+        "102": 1.0,
+        "202": 1.0
+      },
+      "cnn_lstm_mean": 1.0,
+      "cnn_lstm_std": 0.0,
+      "cnn_lstm_rep_recall": 1.0
+    },
+    "js_string": {
+      "n": 123,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 1.0,
+        "102": 1.0,
+        "202": 1.0
+      },
+      "cnn_lstm_mean": 1.0,
+      "cnn_lstm_std": 0.0,
+      "cnn_lstm_rep_recall": 1.0
+    },
+    "url": {
+      "n": 46,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 0.9782608695652174,
+        "102": 1.0,
+        "202": 0.9782608695652174
+      },
+      "cnn_lstm_mean": 0.9855072463768115,
+      "cnn_lstm_std": 0.012551092808470117,
+      "cnn_lstm_rep_recall": 0.9782608695652174
+    }
+  },
+  "recall_by_source_group": {
+    "Tainted": {
+      "n": 276,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 0.9963768115942029,
+        "102": 1.0,
+        "202": 0.9927536231884058
+      },
+      "cnn_lstm_mean": 0.9963768115942028,
+      "cnn_lstm_std": 0.0036231884057971175,
+      "cnn_lstm_rep_recall": 0.9927536231884058
+    },
+    "Obfuscated": {
+      "n": 115,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 1.0,
+        "102": 1.0,
+        "202": 1.0
+      },
+      "cnn_lstm_mean": 1.0,
+      "cnn_lstm_std": 0.0,
+      "cnn_lstm_rep_recall": 1.0
+    }
+  },
+  "recall_by_obfuscation": {
+    "case_mix": {
+      "n": 20,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 1.0,
+        "102": 1.0,
+        "202": 1.0
+      },
+      "cnn_lstm_mean": 1.0,
+      "cnn_lstm_std": 0.0,
+      "cnn_lstm_rep_recall": 1.0
+    },
+    "encode": {
+      "n": 3,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 1.0,
+        "102": 1.0,
+        "202": 1.0
+      },
+      "cnn_lstm_mean": 1.0,
+      "cnn_lstm_std": 0.0,
+      "cnn_lstm_rep_recall": 1.0
+    },
+    "rename_expr": {
+      "n": 43,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 1.0,
+        "102": 1.0,
+        "202": 1.0
+      },
+      "cnn_lstm_mean": 1.0,
+      "cnn_lstm_std": 0.0,
+      "cnn_lstm_rep_recall": 1.0
+    },
+    "whitespace_comment": {
+      "n": 49,
+      "rf_recall": 1.0,
+      "svm_recall": 1.0,
+      "cnn_lstm_per_seed": {
+        "42": 1.0,
+        "102": 1.0,
+        "202": 1.0
+      },
+      "cnn_lstm_mean": 1.0,
+      "cnn_lstm_std": 0.0,
+      "cnn_lstm_rep_recall": 1.0
+    }
+  },
+  "fpr_by_benign_group": {
+    "Clean": {
+      "n": 400,
+      "per_model": {
+        "rf": {
+          "n": 400,
+          "fp": 0,
+          "fpr": 0.0
+        },
+        "svm": {
+          "n": 400,
+          "fp": 0,
+          "fpr": 0.0
+        },
+        "cnn_lstm_seed42": {
+          "n": 400,
+          "fp": 0,
+          "fpr": 0.0
+        },
+        "cnn_lstm_seed102": {
+          "n": 400,
+          "fp": 0,
+          "fpr": 0.0
+        },
+        "cnn_lstm_seed202": {
+          "n": 400,
+          "fp": 0,
+          "fpr": 0.0
+        }
+      },
+      "cnn_lstm_fpr_mean": 0.0,
+      "cnn_lstm_fpr_std": 0.0
+    },
+    "Unusual": {
+      "n": 400,
+      "per_model": {
+        "rf": {
+          "n": 400,
+          "fp": 0,
+          "fpr": 0.0
+        },
+        "svm": {
+          "n": 400,
+          "fp": 5,
+          "fpr": 0.0125
+        },
+        "cnn_lstm_seed42": {
+          "n": 400,
+          "fp": 0,
+          "fpr": 0.0
+        },
+        "cnn_lstm_seed102": {
+          "n": 400,
+          "fp": 1,
+          "fpr": 0.0025
+        },
+        "cnn_lstm_seed202": {
+          "n": 400,
+          "fp": 1,
+          "fpr": 0.0025
+        }
+      },
+      "cnn_lstm_fpr_mean": 0.0016666666666666668,
+      "cnn_lstm_fpr_std": 0.0014433756729740645
+    },
+    "All Benign": {
+      "n": 800,
+      "per_model": {
+        "rf": {
+          "n": 800,
+          "fp": 0,
+          "fpr": 0.0
+        },
+        "svm": {
+          "n": 800,
+          "fp": 5,
+          "fpr": 0.00625
+        },
+        "cnn_lstm_seed42": {
+          "n": 800,
+          "fp": 0,
+          "fpr": 0.0
+        },
+        "cnn_lstm_seed102": {
+          "n": 800,
+          "fp": 1,
+          "fpr": 0.00125
+        },
+        "cnn_lstm_seed202": {
+          "n": 800,
+          "fp": 1,
+          "fpr": 0.00125
+        }
+      },
+      "cnn_lstm_fpr_mean": 0.0008333333333333334,
+      "cnn_lstm_fpr_std": 0.0007216878364870322
+    }
+  },
+  "error_breakdown": {
+    "rf": {
+      "fp_count": 0,
+      "fn_count": 0,
+      "top_fp": [],
+      "top_fn": []
+    },
+    "svm": {
+      "fp_count": 5,
+      "fn_count": 0,
+      "top_fp": [
+        {
+          "group": "Unusual",
+          "context": "benign",
+          "family": "unusual_regex_expression",
+          "count": 5
+        }
+      ],
+      "top_fn": []
+    },
+    "cnn_lstm_seed202": {
+      "fp_count": 1,
+      "fn_count": 2,
+      "top_fp": [
+        {
+          "group": "Unusual",
+          "context": "benign",
+          "family": "unusual_regex_expression",
+          "count": 1
+        }
+      ],
+      "top_fn": [
+        {
+          "group": "Tainted",
+          "context": "html_body",
+          "family": "meter_onmouseover_alert",
+          "count": 1
+        },
+        {
+          "group": "Tainted",
+          "context": "url",
+          "family": "url_js_protocol_symbol_hasinstance_alert",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+A. Trigger qua thuộc tính sự kiện (event ≠ none) — 1312 dòng, 40 loại
+
+Tier 1 — tự bắn, không cần giả lập thao tác (Playwright headless chạy bình thường):
+
+Event	Số dòng
+onerror	373
+onload	198
+onloadstart	65
+ontoggle	45
+onstart	38
+onpageshow	12
+onanimationend	1
+oncontentvisibilityautostatechange	1
+ondurationchange	1
+onend	1
+ontransitionrun	1
+onslotchange	1
+onloadedmetadata	1
+onbegin	1
+
+Tier 2 — cần thao tác đơn giản, Playwright có sẵn hàm (hover/click/focus/type):
+
+Event	Số dòng	Thao tác cần
+onmouseover	188	hover()
+onfocus	167	focus()
+onpointerover	64	hover (pointer)
+onfocusin	60	focus()
+onclick	35	click()
+ondblclick	1	dblclick()
+onmousedown	1	mouse.down()
+onkeyup	1	type()/press()
+oninput	1	fill()/type()
+onchange	1	fill() + blur
+
+Tier 3 — 52 dòng khó, cần giả lập đặc biệt (đã tách riêng):
+
+Event	Số dòng	Ghi chú
+ontouchstart	35	cần context hasTouch: true (mobile emulation)
+onauxclick	2	chuột giữa/phụ
+onbeforeinput	2	nhập trong contenteditable
+oncuechange	1	cần video có track VTT hợp lệ
+onscrollend	1	cuộn hộp overflow tới cuối
+onafterprint	1	mở rồi đóng hộp thoại in
+onformdata	1	submit form
+onbeforematch	1	dùng tìm-trong-trang để lộ hidden=until-found
+onselectionchange	1	chọn text
+oncopy	1	Ctrl+C / clipboard
+oncut	1	Ctrl+X / clipboard
+onpaste	1	Ctrl+V / clipboard
+ondragstart	1	kéo-thả
+onpointerdown	1	nhấn giữ
+oninvalid	1	submit form rỗng/không hợp lệ
+onselect	1	chọn text trong input
+B. Trigger không qua sự kiện HTML (event = none) — 1748 dòng, phân theo cơ chế
+Cơ chế (prefix family)	Số dòng	Mô tả ngắn
+js_break	511	thoát khỏi chuỗi JS rồi chèn mã trực tiếp
+url_js	461	giao thức javascript: trong URL — cần user bấm/mở link (trigger=user)
+attr_break	244	thoát khỏi thuộc tính, mở tag mới
+js_direct	239	chèn thẳng vào mã JS, không cần phá chuỗi
+url_data	106	giao thức data: URI — cần user mở link
+nested_tag	42	lách bộ lọc xoá <script> một lớp
+anchor_js	42	<a href="javascript:..."> — cần click
+script_tag	32	chèn thẳng thẻ <script>
+object_data	25	<object data="...">
+meta_refresh	14	<meta http-equiv="refresh">
+iframe_srcdoc	13	<iframe srcdoc="...">
+html_comment	8	lách qua comment HTML
+js_hoisting	3	lợi dụng hoisting biến/hàm JS
+svg_xlink, js_template, js_symbol, js_function, js_window, js_computed, js_location, js_default	1 mỗi loại	các biến thể hiếm, kỹ thuật JS đặc biệt (template string, Symbol.hasInstance, window[...] access...)

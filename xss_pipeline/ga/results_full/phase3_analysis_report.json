@@ -1,0 +1,1992 @@
+{
+  "matrix_6_2": {
+    "rf": {
+      "html_body": {
+        "cells": {
+          "html_event": {
+            "unique_total": 868,
+            "unique_valid": 524,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          },
+          "js_protocol": {
+            "unique_total": 59,
+            "unique_valid": 17,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          },
+          "js_direct": {
+            "unique_total": 63,
+            "unique_valid": 57,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          }
+        },
+        "total": {
+          "unique_total": 990,
+          "unique_valid": 598,
+          "unique_bypass": 0,
+          "rate_a": 0.0,
+          "seed_rate_a_mean": 0.0,
+          "seed_rate_a_std": 0.0
+        }
+      },
+      "attribute": {
+        "cells": {
+          "html_event": {
+            "unique_total": 1037,
+            "unique_valid": 775,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          },
+          "js_protocol": {
+            "na": true
+          },
+          "js_direct": {
+            "na": true
+          }
+        },
+        "total": {
+          "unique_total": 1037,
+          "unique_valid": 775,
+          "unique_bypass": 0,
+          "rate_a": 0.0,
+          "seed_rate_a_mean": 0.0,
+          "seed_rate_a_std": 0.0
+        }
+      },
+      "js_string": {
+        "cells": {
+          "html_event": {
+            "unique_total": 1085,
+            "unique_valid": 773,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          },
+          "js_protocol": {
+            "na": true
+          },
+          "js_direct": {
+            "unique_total": 91,
+            "unique_valid": 87,
+            "unique_bypass": 16,
+            "rate_a": 0.183908,
+            "na": false,
+            "seed_rate_a_mean": 0.232141,
+            "seed_rate_a_std": 0.016148
+          }
+        },
+        "total": {
+          "unique_total": 1176,
+          "unique_valid": 860,
+          "unique_bypass": 16,
+          "rate_a": 0.018605,
+          "seed_rate_a_mean": 0.056982,
+          "seed_rate_a_std": 0.006073
+        }
+      },
+      "url": {
+        "cells": {
+          "html_event": {
+            "na": true
+          },
+          "js_protocol": {
+            "unique_total": 26,
+            "unique_valid": 25,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": null
+          },
+          "js_direct": {
+            "na": true
+          }
+        },
+        "total": {
+          "unique_total": 26,
+          "unique_valid": 25,
+          "unique_bypass": 0,
+          "rate_a": 0.0,
+          "seed_rate_a_mean": 0.0,
+          "seed_rate_a_std": null
+        }
+      }
+    },
+    "svm": {
+      "html_body": {
+        "cells": {
+          "html_event": {
+            "unique_total": 728,
+            "unique_valid": 394,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          },
+          "js_protocol": {
+            "unique_total": 85,
+            "unique_valid": 21,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          },
+          "js_direct": {
+            "unique_total": 150,
+            "unique_valid": 137,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          }
+        },
+        "total": {
+          "unique_total": 963,
+          "unique_valid": 552,
+          "unique_bypass": 0,
+          "rate_a": 0.0,
+          "seed_rate_a_mean": 0.0,
+          "seed_rate_a_std": 0.0
+        }
+      },
+      "attribute": {
+        "cells": {
+          "html_event": {
+            "unique_total": 1046,
+            "unique_valid": 763,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          },
+          "js_protocol": {
+            "na": true
+          },
+          "js_direct": {
+            "na": true
+          }
+        },
+        "total": {
+          "unique_total": 1046,
+          "unique_valid": 763,
+          "unique_bypass": 0,
+          "rate_a": 0.0,
+          "seed_rate_a_mean": 0.0,
+          "seed_rate_a_std": 0.0
+        }
+      },
+      "js_string": {
+        "cells": {
+          "html_event": {
+            "unique_total": 909,
+            "unique_valid": 596,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          },
+          "js_protocol": {
+            "na": true
+          },
+          "js_direct": {
+            "unique_total": 91,
+            "unique_valid": 87,
+            "unique_bypass": 2,
+            "rate_a": 0.022989,
+            "na": false,
+            "seed_rate_a_mean": 0.025363,
+            "seed_rate_a_std": 0.001245
+          }
+        },
+        "total": {
+          "unique_total": 1000,
+          "unique_valid": 683,
+          "unique_bypass": 2,
+          "rate_a": 0.002928,
+          "seed_rate_a_mean": 0.009435,
+          "seed_rate_a_std": 0.001171
+        }
+      },
+      "url": {
+        "cells": {
+          "html_event": {
+            "na": true
+          },
+          "js_protocol": {
+            "unique_total": 26,
+            "unique_valid": 25,
+            "unique_bypass": 13,
+            "rate_a": 0.52,
+            "na": false,
+            "seed_rate_a_mean": 0.52,
+            "seed_rate_a_std": null
+          },
+          "js_direct": {
+            "na": true
+          }
+        },
+        "total": {
+          "unique_total": 26,
+          "unique_valid": 25,
+          "unique_bypass": 13,
+          "rate_a": 0.52,
+          "seed_rate_a_mean": 0.52,
+          "seed_rate_a_std": null
+        }
+      }
+    },
+    "cnn_lstm": {
+      "html_body": {
+        "cells": {
+          "html_event": {
+            "unique_total": 853,
+            "unique_valid": 465,
+            "unique_bypass": 55,
+            "rate_a": 0.11828,
+            "na": false,
+            "seed_rate_a_mean": 0.265982,
+            "seed_rate_a_std": 0.022127
+          },
+          "js_protocol": {
+            "unique_total": 47,
+            "unique_valid": 14,
+            "unique_bypass": 2,
+            "rate_a": 0.142857,
+            "na": false,
+            "seed_rate_a_mean": 0.098214,
+            "seed_rate_a_std": 0.121551
+          },
+          "js_direct": {
+            "unique_total": 68,
+            "unique_valid": 65,
+            "unique_bypass": 3,
+            "rate_a": 0.046154,
+            "na": false,
+            "seed_rate_a_mean": 0.127315,
+            "seed_rate_a_std": 0.042162
+          }
+        },
+        "total": {
+          "unique_total": 968,
+          "unique_valid": 544,
+          "unique_bypass": 60,
+          "rate_a": 0.110294,
+          "seed_rate_a_mean": 0.248257,
+          "seed_rate_a_std": 0.019178
+        }
+      },
+      "attribute": {
+        "cells": {
+          "html_event": {
+            "unique_total": 1088,
+            "unique_valid": 745,
+            "unique_bypass": 125,
+            "rate_a": 0.167785,
+            "na": false,
+            "seed_rate_a_mean": 0.333136,
+            "seed_rate_a_std": 0.036728
+          },
+          "js_protocol": {
+            "na": true
+          },
+          "js_direct": {
+            "na": true
+          }
+        },
+        "total": {
+          "unique_total": 1088,
+          "unique_valid": 745,
+          "unique_bypass": 125,
+          "rate_a": 0.167785,
+          "seed_rate_a_mean": 0.333136,
+          "seed_rate_a_std": 0.036728
+        }
+      },
+      "js_string": {
+        "cells": {
+          "html_event": {
+            "unique_total": 1168,
+            "unique_valid": 710,
+            "unique_bypass": 164,
+            "rate_a": 0.230986,
+            "na": false,
+            "seed_rate_a_mean": 0.460882,
+            "seed_rate_a_std": 0.062599
+          },
+          "js_protocol": {
+            "na": true
+          },
+          "js_direct": {
+            "unique_total": 68,
+            "unique_valid": 66,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": 0.0
+          }
+        },
+        "total": {
+          "unique_total": 1236,
+          "unique_valid": 776,
+          "unique_bypass": 164,
+          "rate_a": 0.21134,
+          "seed_rate_a_mean": 0.413381,
+          "seed_rate_a_std": 0.04534
+        }
+      },
+      "url": {
+        "cells": {
+          "html_event": {
+            "na": true
+          },
+          "js_protocol": {
+            "unique_total": 26,
+            "unique_valid": 25,
+            "unique_bypass": 0,
+            "rate_a": 0.0,
+            "na": false,
+            "seed_rate_a_mean": 0.0,
+            "seed_rate_a_std": null
+          },
+          "js_direct": {
+            "na": true
+          }
+        },
+        "total": {
+          "unique_total": 26,
+          "unique_valid": 25,
+          "unique_bypass": 0,
+          "rate_a": 0.0,
+          "seed_rate_a_mean": 0.0,
+          "seed_rate_a_std": null
+        }
+      }
+    }
+  },
+  "url_scheme_breakdown": {
+    "rf": {
+      "javascript:": {
+        "unique_total": 13,
+        "unique_valid": 13,
+        "unique_bypass": 0,
+        "rate_a": 0.0
+      },
+      "data:text/html": {
+        "unique_total": 13,
+        "unique_valid": 12,
+        "unique_bypass": 0,
+        "rate_a": 0.0
+      }
+    },
+    "svm": {
+      "javascript:": {
+        "unique_total": 13,
+        "unique_valid": 13,
+        "unique_bypass": 1,
+        "rate_a": 0.076923
+      },
+      "data:text/html": {
+        "unique_total": 13,
+        "unique_valid": 12,
+        "unique_bypass": 12,
+        "rate_a": 1.0
+      }
+    },
+    "cnn_lstm": {
+      "javascript:": {
+        "unique_total": 13,
+        "unique_valid": 13,
+        "unique_bypass": 0,
+        "rate_a": 0.0
+      },
+      "data:text/html": {
+        "unique_total": 13,
+        "unique_valid": 12,
+        "unique_bypass": 0,
+        "rate_a": 0.0
+      }
+    }
+  },
+  "error_analysis": {
+    "rf_js_string_bypass": [
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_template_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "`;",
+        "trigger": "direct",
+        "action": "document.cookie='x=1'",
+        "target_tag": "input",
+        "payload": "`;document.cookie='x=1'//",
+        "valid": 1,
+        "p_malicious": 0.40001021343154114,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5999897865684589
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_dquote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "\";",
+        "trigger": "direct",
+        "action": "document.cookie='x=1'",
+        "target_tag": "svg",
+        "payload": "\";document.cookie='x=1'//",
+        "valid": 1,
+        "p_malicious": 0.40334354676487444,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5966564532351255
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_dquote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "\";",
+        "trigger": "direct",
+        "action": "new Image().src='/probe'",
+        "target_tag": "details",
+        "payload": "\";new Image().src='/probe'//",
+        "valid": 1,
+        "p_malicious": 0.42212645166861984,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5778735483313802
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_template_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "`;",
+        "trigger": "direct",
+        "action": "new Image().src='/probe'",
+        "target_tag": "details",
+        "payload": "`;new Image().src='/probe'//",
+        "valid": 1,
+        "p_malicious": 0.4221264516686199,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5778735483313802
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_direct_code_no_quote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "",
+        "trigger": "direct",
+        "action": "new Image().src='/probe'",
+        "target_tag": "meter",
+        "payload": "new Image().src='/probe'//",
+        "valid": 1,
+        "p_malicious": 0.42533857665493535,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5746614233450646
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_squote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "';",
+        "trigger": "direct",
+        "action": "document.cookie='x=1'",
+        "target_tag": "svg",
+        "payload": "';document.cookie='x=1'//",
+        "valid": 1,
+        "p_malicious": 0.4266419001079203,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5733580998920798
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_direct_code_no_quote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "",
+        "trigger": "direct",
+        "action": "document.cookie='x=1'",
+        "target_tag": "details",
+        "payload": "document.cookie='x=1'//",
+        "valid": 1,
+        "p_malicious": 0.42689250470406553,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5731074952959345
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_comment_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "*/;",
+        "trigger": "direct",
+        "action": "document.cookie='x=1'",
+        "target_tag": "details",
+        "payload": "*/;document.cookie='x=1'//",
+        "valid": 1,
+        "p_malicious": 0.43669523416686284,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5633047658331372
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_squote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "';",
+        "trigger": "direct",
+        "action": "new Image().src='/probe'",
+        "target_tag": "details",
+        "payload": "';new Image().src='/probe'//",
+        "valid": 1,
+        "p_malicious": 0.4512294743156469,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5487705256843531
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_comment_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "*/;",
+        "trigger": "direct",
+        "action": "new Image().src='/probe'",
+        "target_tag": "details",
+        "payload": "*/;new Image().src='/probe'//",
+        "valid": 1,
+        "p_malicious": 0.462040765267084,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5379592347329161
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_dquote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "\";",
+        "trigger": "direct",
+        "action": "fetch('/probe')",
+        "target_tag": "button",
+        "payload": "\";fetch('/probe')//",
+        "valid": 1,
+        "p_malicious": 0.4811887163858587,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5188112836141413
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_template_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "`;",
+        "trigger": "direct",
+        "action": "fetch('/probe')",
+        "target_tag": "details",
+        "payload": "`;fetch('/probe')//",
+        "valid": 1,
+        "p_malicious": 0.4811887163858587,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5188112836141413
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_dquote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "\"-",
+        "trigger": "direct",
+        "action": "fetch('/probe')",
+        "target_tag": "svg",
+        "payload": "\"-fetch('/probe')//",
+        "valid": 1,
+        "p_malicious": 0.48753822095432564,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5124617790456744
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_squote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "'-",
+        "trigger": "direct",
+        "action": "fetch('/probe')",
+        "target_tag": "button",
+        "payload": "'-fetch('/probe')//",
+        "valid": 1,
+        "p_malicious": 0.48753822095432564,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5124617790456744
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_break_squote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "';",
+        "trigger": "direct",
+        "action": "fetch('/probe')",
+        "target_tag": "button",
+        "payload": "';fetch('/probe')//",
+        "valid": 1,
+        "p_malicious": 0.4878738343423557,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5121261656576443
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_direct_code_no_quote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "",
+        "trigger": "direct",
+        "action": "fetch('/probe')",
+        "target_tag": "svg",
+        "payload": "fetch('/probe')//",
+        "valid": 1,
+        "p_malicious": 0.49093328268272063,
+        "threshold": 0.5,
+        "bypass": 1,
+        "fitness": 0.5090667173172794
+      }
+    ],
+    "svm_js_string_bypass": [
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_direct_code_no_quote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "",
+        "trigger": "direct",
+        "action": "confirm(origin)",
+        "target_tag": "svg",
+        "payload": "confirm(origin)//",
+        "valid": 1,
+        "p_malicious": 0.17462623237135544,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.8253737676286446
+      },
+      {
+        "context": "js_string",
+        "mechanism": "js_direct",
+        "family": "js_direct_code_no_quote_ga",
+        "event": "none",
+        "carrier": "",
+        "escape": "",
+        "trigger": "direct",
+        "action": "alert(origin)",
+        "target_tag": "svg",
+        "payload": "alert(origin)//",
+        "valid": 1,
+        "p_malicious": 0.31740019400396846,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.6825998059960315
+      }
+    ],
+    "svm_url_bypass": [
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "confirm(origin)",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>confirm(origin)</script>",
+        "valid": 1,
+        "p_malicious": 0.018648777206872427,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9813512227931276
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "alert(origin)",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>alert(origin)</script>",
+        "valid": 1,
+        "p_malicious": 0.02139622210092061,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9786037778990794
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "window.print()",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>window.print()</script>",
+        "valid": 1,
+        "p_malicious": 0.029699756540769402,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9703002434592306
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "self.confirm(1)",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>self.confirm(1)</script>",
+        "valid": 1,
+        "p_malicious": 0.03414569885840958,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9658543011415904
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "document.cookie='x=1'",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>document.cookie='x=1'</script>",
+        "valid": 1,
+        "p_malicious": 0.04115574240546184,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9588442575945382
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "confirm(1)",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>confirm(1)</script>",
+        "valid": 1,
+        "p_malicious": 0.042141674429484334,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9578583255705156
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "print()",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>print()</script>",
+        "valid": 1,
+        "p_malicious": 0.043493630575455224,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9565063694245448
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "prompt(1)",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>prompt(1)</script>",
+        "valid": 1,
+        "p_malicious": 0.048937090800134975,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.951062909199865
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "alert(1)",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>alert(1)</script>",
+        "valid": 1,
+        "p_malicious": 0.050787039162459954,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.94921296083754
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "alert(document.domain)",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>alert(document.domain)</script>",
+        "valid": 1,
+        "p_malicious": 0.0822346102059123,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9177653897940877
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "fetch('/probe')",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>fetch('/probe')</script>",
+        "valid": 1,
+        "p_malicious": 0.08318724440599494,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9168127555940051
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "iframe_srcdoc_ga",
+        "event": "none",
+        "carrier": "iframe",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "new Image().src='/probe'",
+        "target_tag": "iframe",
+        "payload": "data:text/html,<script>new Image().src='/probe'</script>",
+        "valid": 1,
+        "p_malicious": 0.09574186004617118,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.9042581399538289
+      },
+      {
+        "context": "url",
+        "mechanism": "js_protocol",
+        "family": "url_js_ga",
+        "event": "none",
+        "carrier": "a",
+        "escape": "",
+        "trigger": "javascript:",
+        "action": "confirm(origin)",
+        "target_tag": "a",
+        "payload": "javascript:confirm(origin)",
+        "valid": 1,
+        "p_malicious": 0.3924107685587959,
+        "threshold": 0.4,
+        "bypass": 1,
+        "fitness": 0.6075892314412041
+      }
+    ],
+    "cnn_lstm_by_context": {
+      "html_body": {
+        "bypass_count": 60,
+        "top_triggers": [
+          {
+            "key": "ondblclick",
+            "count": 19
+          },
+          {
+            "key": "ontoggle",
+            "count": 13
+          },
+          {
+            "key": "onpointerover",
+            "count": 9
+          },
+          {
+            "key": "onmouseover",
+            "count": 7
+          },
+          {
+            "key": "onclick",
+            "count": 7
+          },
+          {
+            "key": "direct",
+            "count": 3
+          },
+          {
+            "key": "javascript:",
+            "count": 2
+          }
+        ],
+        "top_actions": [
+          {
+            "key": "self.confirm(1)",
+            "count": 10
+          },
+          {
+            "key": "top.alert(1)",
+            "count": 9
+          },
+          {
+            "key": "new Image().src='/probe'",
+            "count": 7
+          },
+          {
+            "key": "alert(1)",
+            "count": 6
+          },
+          {
+            "key": "prompt(1)",
+            "count": 5
+          },
+          {
+            "key": "alert(origin)",
+            "count": 5
+          },
+          {
+            "key": "print()",
+            "count": 5
+          },
+          {
+            "key": "window.print()",
+            "count": 3
+          },
+          {
+            "key": "fetch('/probe')",
+            "count": 3
+          },
+          {
+            "key": "alert(document.domain)",
+            "count": 2
+          }
+        ],
+        "top_target_tags": [
+          {
+            "key": "details",
+            "count": 51
+          },
+          {
+            "key": "svg",
+            "count": 4
+          },
+          {
+            "key": "meter",
+            "count": 2
+          },
+          {
+            "key": "img",
+            "count": 2
+          },
+          {
+            "key": "video",
+            "count": 1
+          }
+        ],
+        "top_trigger_tag_pairs": [
+          {
+            "key": "ontoggle + details",
+            "count": 13
+          },
+          {
+            "key": "ondblclick + details",
+            "count": 12
+          },
+          {
+            "key": "onpointerover + details",
+            "count": 9
+          },
+          {
+            "key": "onmouseover + details",
+            "count": 7
+          },
+          {
+            "key": "onclick + details",
+            "count": 7
+          },
+          {
+            "key": "direct + details",
+            "count": 3
+          },
+          {
+            "key": "javascript: + svg",
+            "count": 2
+          },
+          {
+            "key": "ondblclick + meter",
+            "count": 2
+          },
+          {
+            "key": "ondblclick + img",
+            "count": 2
+          },
+          {
+            "key": "ondblclick + svg",
+            "count": 2
+          }
+        ]
+      },
+      "attribute": {
+        "bypass_count": 125,
+        "top_triggers": [
+          {
+            "key": "ondblclick",
+            "count": 30
+          },
+          {
+            "key": "ontoggle",
+            "count": 26
+          },
+          {
+            "key": "onclick",
+            "count": 20
+          },
+          {
+            "key": "onmouseover",
+            "count": 18
+          },
+          {
+            "key": "onpointerover",
+            "count": 18
+          },
+          {
+            "key": "onkeyup",
+            "count": 11
+          },
+          {
+            "key": "onerror",
+            "count": 2
+          }
+        ],
+        "top_actions": [
+          {
+            "key": "self.confirm(1)",
+            "count": 18
+          },
+          {
+            "key": "top.alert(1)",
+            "count": 14
+          },
+          {
+            "key": "alert(1)",
+            "count": 12
+          },
+          {
+            "key": "prompt(1)",
+            "count": 12
+          },
+          {
+            "key": "alert(origin)",
+            "count": 12
+          },
+          {
+            "key": "new Image().src='/probe'",
+            "count": 11
+          },
+          {
+            "key": "window.print()",
+            "count": 10
+          },
+          {
+            "key": "fetch('/probe')",
+            "count": 10
+          },
+          {
+            "key": "print()",
+            "count": 10
+          },
+          {
+            "key": "confirm(1)",
+            "count": 6
+          }
+        ],
+        "top_target_tags": [
+          {
+            "key": "details",
+            "count": 117
+          },
+          {
+            "key": "video",
+            "count": 4
+          },
+          {
+            "key": "svg",
+            "count": 4
+          }
+        ],
+        "top_trigger_tag_pairs": [
+          {
+            "key": "ontoggle + details",
+            "count": 26
+          },
+          {
+            "key": "ondblclick + details",
+            "count": 24
+          },
+          {
+            "key": "onclick + details",
+            "count": 20
+          },
+          {
+            "key": "onmouseover + details",
+            "count": 18
+          },
+          {
+            "key": "onpointerover + details",
+            "count": 18
+          },
+          {
+            "key": "onkeyup + details",
+            "count": 11
+          },
+          {
+            "key": "ondblclick + svg",
+            "count": 4
+          },
+          {
+            "key": "ondblclick + video",
+            "count": 2
+          },
+          {
+            "key": "onerror + video",
+            "count": 2
+          }
+        ]
+      },
+      "js_string": {
+        "bypass_count": 164,
+        "top_triggers": [
+          {
+            "key": "ontoggle",
+            "count": 90
+          },
+          {
+            "key": "onclick",
+            "count": 38
+          },
+          {
+            "key": "onpointerover",
+            "count": 16
+          },
+          {
+            "key": "onmouseover",
+            "count": 10
+          },
+          {
+            "key": "onfocus",
+            "count": 9
+          },
+          {
+            "key": "onerror",
+            "count": 1
+          }
+        ],
+        "top_actions": [
+          {
+            "key": "top.alert(1)",
+            "count": 31
+          },
+          {
+            "key": "self.confirm(1)",
+            "count": 29
+          },
+          {
+            "key": "alert(1)",
+            "count": 15
+          },
+          {
+            "key": "print()",
+            "count": 13
+          },
+          {
+            "key": "new Image().src='/probe'",
+            "count": 12
+          },
+          {
+            "key": "prompt(1)",
+            "count": 11
+          },
+          {
+            "key": "alert(origin)",
+            "count": 10
+          },
+          {
+            "key": "window.print()",
+            "count": 8
+          },
+          {
+            "key": "fetch('/probe')",
+            "count": 8
+          },
+          {
+            "key": "confirm(origin)",
+            "count": 7
+          }
+        ],
+        "top_target_tags": [
+          {
+            "key": "details",
+            "count": 163
+          },
+          {
+            "key": "video",
+            "count": 1
+          }
+        ],
+        "top_trigger_tag_pairs": [
+          {
+            "key": "ontoggle + details",
+            "count": 90
+          },
+          {
+            "key": "onclick + details",
+            "count": 38
+          },
+          {
+            "key": "onpointerover + details",
+            "count": 16
+          },
+          {
+            "key": "onmouseover + details",
+            "count": 10
+          },
+          {
+            "key": "onfocus + details",
+            "count": 9
+          },
+          {
+            "key": "onerror + video",
+            "count": 1
+          }
+        ]
+      },
+      "url": {
+        "bypass_count": 0,
+        "top_triggers": [],
+        "top_actions": [],
+        "top_target_tags": [],
+        "top_trigger_tag_pairs": []
+      }
+    },
+    "cnn_lstm_lowest10": [
+      {
+        "context": "js_string",
+        "mechanism": "html_event",
+        "family": "js_break_dquote_ga",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "\"-",
+        "trigger": "ontoggle",
+        "action": "top.alert(1)",
+        "target_tag": "details",
+        "payload": "\"-</script><details open ontoggle=\"top.alert(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.03306124359369278,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.9669387564063072
+      },
+      {
+        "context": "attribute",
+        "mechanism": "html_event",
+        "family": "attr_break_squote_ga",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "'>",
+        "trigger": "ontoggle",
+        "action": "top.alert(1)",
+        "target_tag": "details",
+        "payload": "'><details open ontoggle=\"top.alert(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.03547963872551918,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.9645203612744808
+      },
+      {
+        "context": "js_string",
+        "mechanism": "html_event",
+        "family": "js_break_template_ga",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "`;",
+        "trigger": "ontoggle",
+        "action": "top.alert(1)",
+        "target_tag": "details",
+        "payload": "`;</script><details open ontoggle=\"top.alert(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.035916589200496674,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.9640834107995033
+      },
+      {
+        "context": "html_body",
+        "mechanism": "html_event",
+        "family": "",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "",
+        "trigger": "ontoggle",
+        "action": "top.alert(1)",
+        "target_tag": "details",
+        "payload": "<details open ontoggle=\"top.alert(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.03658481687307358,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.9634151831269264
+      },
+      {
+        "context": "attribute",
+        "mechanism": "html_event",
+        "family": "attr_break_dquote_ga",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "\"",
+        "trigger": "ontoggle",
+        "action": "top.alert(1)",
+        "target_tag": "details",
+        "payload": "\"><details open ontoggle=\"top.alert(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.03691742569208145,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.9630825743079185
+      },
+      {
+        "context": "js_string",
+        "mechanism": "html_event",
+        "family": "js_break_squote_ga",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "'-",
+        "trigger": "ontoggle",
+        "action": "top.alert(1)",
+        "target_tag": "details",
+        "payload": "'-</script><details open ontoggle=\"top.alert(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.03895033150911331,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.9610496684908867
+      },
+      {
+        "context": "js_string",
+        "mechanism": "html_event",
+        "family": "js_break_dquote_ga",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "\"-",
+        "trigger": "ontoggle",
+        "action": "alert(1)",
+        "target_tag": "details",
+        "payload": "\"-</script><details open ontoggle=\"alert(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.040223341435194016,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.959776658564806
+      },
+      {
+        "context": "attribute",
+        "mechanism": "html_event",
+        "family": "attr_break_squote_ga",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "'>",
+        "trigger": "ontoggle",
+        "action": "alert(1)",
+        "target_tag": "details",
+        "payload": "'><details open ontoggle=\"alert(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.04119306057691574,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.9588069394230843
+      },
+      {
+        "context": "js_string",
+        "mechanism": "html_event",
+        "family": "js_break_dquote_ga",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "\"-",
+        "trigger": "ontoggle",
+        "action": "self.confirm(1)",
+        "target_tag": "details",
+        "payload": "\"-</script><details open ontoggle=\"self.confirm(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.04152343049645424,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.9584765695035458
+      },
+      {
+        "context": "attribute",
+        "mechanism": "html_event",
+        "family": "attr_break_dquote_ga",
+        "event": "ontoggle",
+        "carrier": "",
+        "escape": "\">",
+        "trigger": "ontoggle",
+        "action": "alert(1)",
+        "target_tag": "details",
+        "payload": "\"><details open ontoggle=\"alert(1)\">click</details>",
+        "valid": 1,
+        "p_malicious": 0.04262935370206833,
+        "threshold": 0.57,
+        "bypass": 1,
+        "fitness": 0.9573706462979317
+      }
+    ],
+    "structural_comparison": {
+      "rf_js_string": {
+        "n_detected_valid": 844,
+        "n_bypassed_valid": 16,
+        "features": [
+          {
+            "feature": "html_tag_count",
+            "detected_mean": 0.9159,
+            "bypassed_mean": 0.0,
+            "diff": -0.9159
+          },
+          {
+            "feature": "on_event_attr_count",
+            "detected_mean": 0.9159,
+            "bypassed_mean": 0.0,
+            "diff": -0.9159
+          },
+          {
+            "feature": "has_javascript_scheme",
+            "detected_mean": 0.0,
+            "bypassed_mean": 0.0,
+            "diff": 0.0
+          },
+          {
+            "feature": "has_data_scheme",
+            "detected_mean": 0.0,
+            "bypassed_mean": 0.0,
+            "diff": 0.0
+          },
+          {
+            "feature": "angle_bracket_count",
+            "detected_mean": 5.1919,
+            "bypassed_mean": 0.0,
+            "diff": -5.1919
+          },
+          {
+            "feature": "quote_count",
+            "detected_mean": 3.8389,
+            "bypassed_mean": 2.5,
+            "diff": -1.3389
+          },
+          {
+            "feature": "semicolon_count",
+            "detected_mean": 0.5782,
+            "bypassed_mean": 0.6875,
+            "diff": 0.1093
+          },
+          {
+            "feature": "paren_count",
+            "detected_mean": 1.6161,
+            "bypassed_mean": 1.375,
+            "diff": -0.2411
+          },
+          {
+            "feature": "key_tag_keyword_count",
+            "detected_mean": 1.1967,
+            "bypassed_mean": 0.0,
+            "diff": -1.1967
+          },
+          {
+            "feature": "length",
+            "detected_mean": 58.5746,
+            "bypassed_mean": 23.4375,
+            "diff": -35.1371
+          },
+          {
+            "feature": "special_char_ratio",
+            "detected_mean": 0.2897,
+            "bypassed_mean": 0.4055,
+            "diff": 0.1157
+          }
+        ]
+      },
+      "svm_url": {
+        "n_detected_valid": 12,
+        "n_bypassed_valid": 13,
+        "features": [
+          {
+            "feature": "html_tag_count",
+            "detected_mean": 0.0,
+            "bypassed_mean": 0.9231,
+            "diff": 0.9231
+          },
+          {
+            "feature": "on_event_attr_count",
+            "detected_mean": 0.0,
+            "bypassed_mean": 0.0,
+            "diff": 0.0
+          },
+          {
+            "feature": "has_javascript_scheme",
+            "detected_mean": 1.0,
+            "bypassed_mean": 0.0769,
+            "diff": -0.9231
+          },
+          {
+            "feature": "has_data_scheme",
+            "detected_mean": 0.0,
+            "bypassed_mean": 0.9231,
+            "diff": 0.9231
+          },
+          {
+            "feature": "angle_bracket_count",
+            "detected_mean": 0.0,
+            "bypassed_mean": 3.6923,
+            "diff": 3.6923
+          },
+          {
+            "feature": "quote_count",
+            "detected_mean": 0.5,
+            "bypassed_mean": 0.4615,
+            "diff": -0.0385
+          },
+          {
+            "feature": "semicolon_count",
+            "detected_mean": 0.0,
+            "bypassed_mean": 0.0,
+            "diff": 0.0
+          },
+          {
+            "feature": "paren_count",
+            "detected_mean": 1.8333,
+            "bypassed_mean": 1.8462,
+            "diff": 0.0128
+          },
+          {
+            "feature": "key_tag_keyword_count",
+            "detected_mean": 1.0,
+            "bypassed_mean": 1.9231,
+            "diff": 0.9231
+          },
+          {
+            "feature": "length",
+            "detected_mean": 25.1667,
+            "bypassed_mean": 44.8462,
+            "diff": 19.6795
+          },
+          {
+            "feature": "special_char_ratio",
+            "detected_mean": 0.1665,
+            "bypassed_mean": 0.2312,
+            "diff": 0.0647
+          }
+        ]
+      },
+      "svm_js_string": {
+        "n_detected_valid": 681,
+        "n_bypassed_valid": 2,
+        "features": [
+          {
+            "feature": "html_tag_count",
+            "detected_mean": 0.8752,
+            "bypassed_mean": 0.0,
+            "diff": -0.8752
+          },
+          {
+            "feature": "on_event_attr_count",
+            "detected_mean": 0.8752,
+            "bypassed_mean": 0.0,
+            "diff": -0.8752
+          },
+          {
+            "feature": "has_javascript_scheme",
+            "detected_mean": 0.0,
+            "bypassed_mean": 0.0,
+            "diff": 0.0
+          },
+          {
+            "feature": "has_data_scheme",
+            "detected_mean": 0.0,
+            "bypassed_mean": 0.0,
+            "diff": 0.0
+          },
+          {
+            "feature": "angle_bracket_count",
+            "detected_mean": 4.8517,
+            "bypassed_mean": 0.0,
+            "diff": -4.8517
+          },
+          {
+            "feature": "quote_count",
+            "detected_mean": 3.1395,
+            "bypassed_mean": 0.0,
+            "diff": -3.1395
+          },
+          {
+            "feature": "semicolon_count",
+            "detected_mean": 0.4655,
+            "bypassed_mean": 0.0,
+            "diff": -0.4655
+          },
+          {
+            "feature": "paren_count",
+            "detected_mean": 1.9119,
+            "bypassed_mean": 2.0,
+            "diff": 0.0881
+          },
+          {
+            "feature": "key_tag_keyword_count",
+            "detected_mean": 1.2335,
+            "bypassed_mean": 0.0,
+            "diff": -1.2335
+          },
+          {
+            "feature": "length",
+            "detected_mean": 55.2878,
+            "bypassed_mean": 16.0,
+            "diff": -39.2878
+          },
+          {
+            "feature": "special_char_ratio",
+            "detected_mean": 0.2856,
+            "bypassed_mean": 0.251,
+            "diff": -0.0346
+          }
+        ]
+      }
+    },
+    "rf_structural_importances": [
+      {
+        "feature": "html_tag_count",
+        "importance": 0.004938
+      },
+      {
+        "feature": "on_event_attr_count",
+        "importance": 0.017826
+      },
+      {
+        "feature": "has_javascript_scheme",
+        "importance": 0.000189
+      },
+      {
+        "feature": "has_data_scheme",
+        "importance": 1e-06
+      },
+      {
+        "feature": "angle_bracket_count",
+        "importance": 0.003646
+      },
+      {
+        "feature": "quote_count",
+        "importance": 0.018694
+      },
+      {
+        "feature": "semicolon_count",
+        "importance": 0.003323
+      },
+      {
+        "feature": "paren_count",
+        "importance": 0.019556
+      },
+      {
+        "feature": "key_tag_keyword_count",
+        "importance": 0.001341
+      },
+      {
+        "feature": "length",
+        "importance": 0.00306
+      },
+      {
+        "feature": "special_char_ratio",
+        "importance": 0.037339
+      }
+    ],
+    "rf_top10_importances": [
+      {
+        "feature": "special_char_ratio",
+        "importance": 0.037339
+      },
+      {
+        "feature": "paren_count",
+        "importance": 0.019556
+      },
+      {
+        "feature": "quote_count",
+        "importance": 0.018694
+      },
+      {
+        "feature": "on_event_attr_count",
+        "importance": 0.017826
+      },
+      {
+        "feature": "t(",
+        "importance": 0.012181
+      },
+      {
+        "feature": "'+",
+        "importance": 0.012037
+      },
+      {
+        "feature": "('",
+        "importance": 0.011688
+      },
+      {
+        "feature": "ert(",
+        "importance": 0.009284
+      },
+      {
+        "feature": "='+",
+        "importance": 0.009271
+      },
+      {
+        "feature": "//",
+        "importance": 0.008749
+      }
+    ],
+    "svm_structural_coefs": [
+      {
+        "feature": "html_tag_count",
+        "coef": 0.152221
+      },
+      {
+        "feature": "on_event_attr_count",
+        "coef": 0.612768
+      },
+      {
+        "feature": "has_javascript_scheme",
+        "coef": 0.08376
+      },
+      {
+        "feature": "has_data_scheme",
+        "coef": -0.137871
+      },
+      {
+        "feature": "angle_bracket_count",
+        "coef": -0.261743
+      },
+      {
+        "feature": "quote_count",
+        "coef": 0.121502
+      },
+      {
+        "feature": "semicolon_count",
+        "coef": 0.123594
+      },
+      {
+        "feature": "paren_count",
+        "coef": 0.224589
+      },
+      {
+        "feature": "key_tag_keyword_count",
+        "coef": 0.247434
+      },
+      {
+        "feature": "length",
+        "coef": -0.086772
+      },
+      {
+        "feature": "special_char_ratio",
+        "coef": 0.618413
+      }
+    ],
+    "svm_intercept": -0.851572,
+    "svm_negative_examples": [
+      {
+        "group": "svm/url",
+        "payload": "data:text/html,<script>confirm(origin)</script>",
+        "p_svm": 0.018648777206872427,
+        "top_negative_features": [
+          {
+            "feature": "has_data_scheme",
+            "value": 8.9836,
+            "coef": -0.1379,
+            "contribution": -1.2386
+          },
+          {
+            "feature": "angle_bracket_count",
+            "value": 1.3403,
+            "coef": -0.2617,
+            "contribution": -0.3508
+          },
+          {
+            "feature": "on_event_attr_count",
+            "value": -0.4037,
+            "coef": 0.6128,
+            "contribution": -0.2474
+          },
+          {
+            "feature": "quote_count",
+            "value": -0.583,
+            "coef": 0.1215,
+            "contribution": -0.0708
+          },
+          {
+            "feature": "semicolon_count",
+            "value": -0.3178,
+            "coef": 0.1236,
+            "contribution": -0.0393
+          }
+        ]
+      },
+      {
+        "group": "svm/js_string",
+        "payload": "confirm(origin)//",
+        "p_svm": 0.17462623237135544,
+        "top_negative_features": [
+          {
+            "feature": "on_event_attr_count",
+            "value": -0.4037,
+            "coef": 0.6128,
+            "contribution": -0.2474
+          },
+          {
+            "feature": "key_tag_keyword_count",
+            "value": -0.3843,
+            "coef": 0.2474,
+            "contribution": -0.0951
+          },
+          {
+            "feature": "quote_count",
+            "value": -0.583,
+            "coef": 0.1215,
+            "contribution": -0.0708
+          },
+          {
+            "feature": "html_tag_count",
+            "value": -0.3325,
+            "coef": 0.1522,
+            "contribution": -0.0506
+          },
+          {
+            "feature": "semicolon_count",
+            "value": -0.3178,
+            "coef": 0.1236,
+            "contribution": -0.0393
+          }
+        ]
+      }
+    ]
+  },
+  "transferability": {
+    "total_unique_exported": 380,
+    "thresholds": {
+      "rf": 0.5,
+      "svm": 0.4,
+      "cnn_lstm": 0.57
+    },
+    "by_num_models_bypassed": {
+      "1": 380
+    },
+    "by_models_bypassed_combo": {
+      "cnn_lstm": 349,
+      "rf": 16,
+      "svm": 15
+    },
+    "pairwise_and_triple": {
+      "rf_and_svm": 0,
+      "rf_and_cnn_lstm": 0,
+      "svm_and_cnn_lstm": 0,
+      "all_three": 0
+    },
+    "by_context": {
+      "html_body": {
+        "total": 60,
+        "cnn_lstm": 60
+      },
+      "attribute": {
+        "total": 125,
+        "cnn_lstm": 125
+      },
+      "js_string": {
+        "total": 182,
+        "cnn_lstm": 164,
+        "rf": 16,
+        "svm": 2
+      },
+      "url": {
+        "total": 13,
+        "svm": 13
+      }
+    }
+  }
+}

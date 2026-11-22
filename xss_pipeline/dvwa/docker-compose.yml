@@ -1,0 +1,12 @@
+services:
+  dvwa:
+    image: vulnerables/web-dvwa
+    container_name: dvwa_t02
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./xss_t02:/var/www/html/vulnerabilities/xss_t02:ro
+      - ./static/validimage.gif:/var/www/html/validimage.gif:ro
+      - ./static/validaudio.wav:/var/www/html/validaudio.wav:ro
+      - ./static/probe:/var/www/html/probe:ro
+    restart: unless-stopped
